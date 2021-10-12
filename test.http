@@ -1,0 +1,7 @@
+DELETE   http://localhost:3000/user/
+# Content-Type: application/json
+
+# {
+#     "first_name":"bob",
+#     "fave_emoji": "🔥"
+# }
