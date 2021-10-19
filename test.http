@@ -1,7 +1,7 @@
-DELETE   http://localhost:3000/user/
-# Content-Type: application/json
+POST http://localhost:3000/login
+content-type: application/json
 
-# {
-#     "first_name":"bob",
-#     "fave_emoji": "🔥"
-# }
+{
+    "email": "reilly@reilly.dev",
+    "password" : "password"
+}
